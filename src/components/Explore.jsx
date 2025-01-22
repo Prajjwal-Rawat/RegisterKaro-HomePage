@@ -1,10 +1,11 @@
 import React from 'react';
 import { ServicesGrid } from '../assets/Data/servicesGrid';
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import Btn from './Btn';
 
 const Explore = () => {
   return (
-    <section className="w-full py-12">
+    <section className="w-full py-12 bg-[#FAFAFA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center mb-8">
           <p className="uppercase text-[#EB8D15] text-[14px]">
@@ -27,6 +28,12 @@ const Explore = () => {
               </button>
             </div>
           ))}
+        </div>
+        <div className='flex items-center justify-center mt-10'>
+        <Btn
+        text={"See All Services"}
+        classname={"bg-[#1C4670] w-[162px] h-[52px] rounded-md text-white hover:scale-105 active:scale-100 shadow-lg active:shadow-none transition-all duration-300 shadow-[#A8164B26] text-[16px]"}
+        />
         </div>
       </div>
     </section>
