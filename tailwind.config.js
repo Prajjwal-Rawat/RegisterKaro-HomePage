@@ -28,6 +28,20 @@ export default {
         800: "#161D29",
         900: "#000814",
       },
+      orange: {
+        5: "#FFF8F1",
+        25: "#FFEAD5",
+        50: "#FFDCB9",
+        100: "#FFCEA3",
+        200: "#FFBF8D",
+        300: "#FFAF77",
+        400: "#FF9F61",
+        500: "#FF8F4B",
+        600: "#E67F43",
+        700: "#CC6F3B",
+        800: "#B35F33",
+        900: "#994F2B",
+      },
       green: {
         5: "#E8F5E9",  
         25: "#C8E6C9",   
@@ -208,46 +222,9 @@ export default {
         // Multicolor Shadows
         'rainbow': '4px 4px 12px rgba(239, 71, 111, 0.4), -4px -4px 12px rgba(17, 138, 178, 0.4)',
       },
-      backgroundImage: {
-        'shiny-yellow-gradient': 'linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%)',
-        'shiny-blue-gradient': 'linear-gradient(to top, #30cfd0 0%, #330867 100%)',
-        'red-gradient': 'linear-gradient(90deg, #FF8F8F, #FF3737)',
-        'red-yellow-gradient': 'linear-gradient(to bottom right, #FF3737, #FFD60A)',
-        // Blue gradients
-        'blue-sky': 'linear-gradient(to right, #118AB2, #47A5C5, #7EC0D9)',
-        'blue-night': 'linear-gradient(to bottom, #063544, #0C6A87, #47A5C5)',
-
-        // Red gradients
-        'red-fire': 'linear-gradient(90deg, #FF3737, #E62E2E, #FF8F8F)',
-        'red-love': 'linear-gradient(to bottom right, #991515, #FF6363, #FFE5E5)',
-
-        // Yellow gradients
-        'yellow-sunrise': 'linear-gradient(120deg, #FFD60A, #E7C009, #FFE83D)',
-        'yellow-golden': 'linear-gradient(to top, #CFAB08, #FFD60A, #FFF970)',
-
-        // Green gradients
-        'green-mint': 'linear-gradient(to right, #06D6A0, #44E4BF, #C1FFFD)',
-        'green-forest': 'linear-gradient(to bottom, #014A32, #037957, #06D6A0)',
-
-        // Pink gradients
-        'pink-candy': 'linear-gradient(45deg, #EF476F, #F79CB0, #FFF1F1)',
-        'pink-sunset': 'linear-gradient(to right, #691432, #EF476F, #FBC7D1)',
-
-        // Brown gradients
-        'brown-earth': 'linear-gradient(120deg, #593C17, #88662D, #FFF4C4)',
-        'brown-caramel': 'linear-gradient(to bottom, #B89144, #FFD166, #FFE395)',
-
-        // Pure Grey gradients
-        'grey-silver': 'linear-gradient(to right, #5B5B5B, #CCCCCC, #F9F9F9)',
-        'grey-charcoal': 'linear-gradient(to bottom, #171717, #2D2D2D, #5B5B5B)',
-
-        // Blue-Purple
-        'blue-purple': 'linear-gradient(to right, #30cfd0, #330867)',
-
-        // Custom multicolor gradients
-        'rainbow': 'linear-gradient(45deg, #FF3737, #FFD60A, #06D6A0, #118AB2, #EF476F)',
-        'shiny-pastel': 'linear-gradient(to bottom right, #ECF5FF, #C6D6E1, #FFE5E5, #FFF970)',
-      },
+      backgroundImage:{
+        'section1': 'linear-gradient(113.91deg, #FFFFFF 8%, rgba(255, 240, 220, 0.67) 28%, rgba(237, 246, 255, 0.7) 36%)'
+      }
     },
   },
   plugins: [],
