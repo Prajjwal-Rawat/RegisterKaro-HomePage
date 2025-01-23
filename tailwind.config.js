@@ -223,7 +223,8 @@ export default {
         'rainbow': '4px 4px 12px rgba(239, 71, 111, 0.4), -4px -4px 12px rgba(17, 138, 178, 0.4)',
       },
       backgroundImage:{
-        'section1': 'linear-gradient(113.91deg, #FFFFFF 8%, rgba(255, 240, 220, 0.67) 28%, rgba(237, 246, 255, 0.7) 36%)'
+        'section1': 'linear-gradient(113.91deg, #FFFFFF 8%, rgba(255, 240, 220, 0.67) 28%, rgba(237, 246, 255, 0.7) 36%)',
+        "colon":  "linear-gradient(180deg, #FFA229 0%, #1C4670 78.12%)"
       }
     },
   },

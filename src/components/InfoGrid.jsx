@@ -10,10 +10,10 @@ const InfoGrid = () => {
             key={index}
             className={`
               ${index === 0 ? 'lg:col-span-2 lg:row-span-1 lg:h-[270px] p-0' : ''}
-              ${card.order === 1 ? 'p-6 bg-[#FCDDEC] rounded-md' : 'p-6 bg-white rounded-md'}
-              ${card.order === 2 ? 'p-6 bg-[#F1FBF3] rounded-md' : 'p-6 bg-white rounded-md'}
-              ${card.order === 4 ? 'p-6 bg-[#FBF1FB] rounded-md' : 'p-6 bg-white rounded-md'}
-              ${card.order === 5 ? 'p-6 bg-[#27AE600A] rounded-md' : 'p-6 bg-white rounded-md'}
+              ${card.order === 1 ? 'p-6 bg-[#FCDDEC] rounded-md' : 'p-6 '}
+              ${card.order === 2 ? 'p-6 bg-[#F1FBF3] rounded-md' : ''}
+              ${card.order === 4 ? 'p-6 bg-[#FBF1FB] rounded-md' : ''}
+              ${card.order === 5 ? 'p-6 bg-[#27AE600A] rounded-md' : ''}
               ${card.order === 3 ? 'lg:col-start-2 bg-[#EDF3FF] rounded-md' : ''}
             `}
           >

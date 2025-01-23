@@ -46,7 +46,11 @@ const Navbar = () => {
                     </div>
                   </div>
                 ) : (
-                  <Link to={navtag.path} key={i}
+                  <Link  key={i}
+                  onClick={() => {
+                    const section = document.getElementById(navtag.id);
+                    section.scrollIntoView({behavior: "smooth"})
+                  }}
                     className="text-gray-700 hover:text-black"
                   >
                     {navtag.title}
